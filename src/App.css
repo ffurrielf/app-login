@@ -32,7 +32,112 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/*************** LOGIN CSS ***************/
+.container-geral {
+  display: flexbox;
+  width: 1919px;
+  height: 894px;
+  background-color: #FFEFAE;
+}
+
+.leftDiv {
+  width: 1165px;
+  height: 894px;
+  background-color: #FFFFFF;
+}
+
+.container-form {
+  box-sizing: border-box;
+  position: absolute;
+  width: 598px;
+  height: 747px;
+  left: 244px;
+  top: 54px;
+  background-color: rgba(205, 205, 205, 0.5);
+  /* background-color: #326295; */
+  border: 1px solid #DADADA;
+  box-shadow: 0px 101px 100px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  margin-bottom: 300px;
+}
+
+.container-logo {
+  width: 200px;
+  height: 141.91px;
+  margin: 30px 199px 0px 199px;
+}
+
+.container-form h1 {
+  width: 152px;
+  height: 84px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 84px;
+  color: #13294B;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 34px 223px 34px 223px;
+
+}
+
+
+.container-logo img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.rightDiv img {
+  position: absolute;
+  width: 729px;
+  height: 741px;
+  left: 1020px;
+  top: 94px;
+}
+
+
+
+
+
+
+
+/********** Formulário **********/
+.forms label {
+  display: flex;
+  width: 63px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 7px;
+  margin-left: 60px;
+  margin-top: 34px;
+
+}
+
+.forms input {
+  display: flex;
+  margin-left: 60px;
+  width: 478px;
+  height: 35px;
+}
+
+.forms button {
+  display: flex;
+  width: 150px;
+  height: 46px;
+  margin: 34px 224px 73.09px 224px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
 }
